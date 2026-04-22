@@ -1,13 +1,16 @@
+// Nama             : Zahra Aulia
+// NIM              : 13224007
+// Keterangan soal  : Nomor 2
+
 #include <stdio.h>  
 #include <math.h> 
 
 void findmax(int *arr, int n, int *max, int *IDX) {
-    int buffer = arr[0]; 
+    *max = arr[0]; 
     *IDX = 0;
     for (int i = 1; i < n; i++) {  
-        if (arr[i] > buffer) {        
-            buffer = arr[i]; 
-            *max = buffer;
+        if (arr[i] > *max) {        
+            *max = arr[i]; 
             *IDX = i;      
         }
     }
