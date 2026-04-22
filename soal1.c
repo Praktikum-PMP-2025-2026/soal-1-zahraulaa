@@ -1,7 +1,3 @@
-// Nama             : Zahra Aulia
-// NIM              : 13224007
-// Keterangan soal  : Nomor 2
-
 #include <stdio.h>  
 #include <math.h> 
 
